@@ -1,10 +1,7 @@
-// Hae elementti ID:n perusteella
 const imageElement = document.getElementById("dice");
 
-// Lisää click-tapahtumankuuntelija
 imageElement.addEventListener("click", function() {
-    // Suoritettava toiminto kun kuvaa klikataan
-    const randomNumber = Math.floor(Math.random() * 6) + 1;
+     const randomNumber = Math.floor(Math.random() * 6) + 1;
     
     let newImageSrc = "";
 
